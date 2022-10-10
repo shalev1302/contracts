@@ -30,6 +30,10 @@ contract purpayInvest{
         return(balances[owner]);
         
     }
+    function chackSellerBalance() public view returns(uint256){
+        return(balances[seller]);
+
+    }
     function chackHostBalance() public view returns(uint256){
         return(balances[host]);
         
